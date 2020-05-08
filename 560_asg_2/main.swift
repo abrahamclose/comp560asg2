@@ -1,12 +1,12 @@
 import Foundation
 
 var reward_for_action = [String: Float] ()
-reward_for_action["Ravine"] = 0.2
-reward_for_action["Fairway"] = 0.3
-reward_for_action["Over"] = 0.4
-reward_for_action["Left"] = 0.5
-reward_for_action["Same"] = 0.6
-reward_for_action["Close"] = 0.9
+reward_for_action["Ravine"]     = 0.2
+reward_for_action["Fairway"]    = 0.3
+reward_for_action["Over"]       = 0.4
+reward_for_action["Left"]       = 0.5
+reward_for_action["Same"]       = 0.6
+reward_for_action["Close"]      = 0.9
 
 var env = [String: [String : [String : Float]]] ()
 while let input: String = readLine(strippingNewline: true) {
