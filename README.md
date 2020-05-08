@@ -1,11 +1,11 @@
-#  COMP 560 / Spring 2020 - Assignment 1
+#  COMP 560 / Spring 2020 - Assignment 2
 
 To compile the source files, please run the following command from the top directory 
 
 ```
-swiftc source/*.swift -o main
+swiftc 560_asg_2/*.swift -o main
 ```
 To run the program, please run the following command from the top directory:
 ```
-./main < usTestFile.txt
+./main < assignment2test.txt
 ```
