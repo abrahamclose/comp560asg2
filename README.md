@@ -9,3 +9,5 @@ To run the program, please run the following command from the top directory:
 ```
 ./main < assignment2test.txt
 ```
+
+Help found at https://pythonprogramming.net/q-learning-algorithm-reinforcement-learning-python-tutorial/
